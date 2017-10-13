@@ -1,0 +1,3 @@
+C:/Users/Flora/CLionProjects/PIC10C/ASSN1/cmake-build-debug/CMakeFiles/ASSN1.dir
+C:/Users/Flora/CLionProjects/PIC10C/ASSN1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Flora/CLionProjects/PIC10C/ASSN1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

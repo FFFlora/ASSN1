@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Flora/CLionProjects/PIC10C/ASSN1/cards.cpp
+cards.h
+C:/Users/Flora/CLionProjects/PIC10C/ASSN1/cards.h
+cstdlib
+-
+iostream
+-
+iomanip
+-
+algorithm
+-
+
+C:/Users/Flora/CLionProjects/PIC10C/ASSN1/cards.h
+string
+-
+vector
+-
+fstream
+-
+
+C:/Users/Flora/CLionProjects/PIC10C/ASSN1/main.cpp
+iostream
+-
+
