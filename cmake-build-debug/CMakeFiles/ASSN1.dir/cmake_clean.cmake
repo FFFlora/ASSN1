@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ASSN1.dir/main.cpp.obj"
+  "CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj"
   "CMakeFiles/ASSN1.dir/cards.cpp.obj"
   "ASSN1.pdb"
   "ASSN1.exe"

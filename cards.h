@@ -81,6 +81,7 @@ public:
     // Constructor.
     //    Assigns initial amount of money
     Player(int m);
+    bool ifPlayerWins();
 
     // You decide what functions you'll need...
 

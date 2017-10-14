@@ -26,7 +26,19 @@ vector
 fstream
 -
 
-C:/Users/Flora/CLionProjects/PIC10C/ASSN1/main.cpp
+C:/Users/Flora/CLionProjects/PIC10C/ASSN1/siete_y_medio.cpp
 iostream
 -
+fstream
+-
+string
+-
+vector
+-
+ctime
+-
+cstdlib
+-
+cards.h
+C:/Users/Flora/CLionProjects/PIC10C/ASSN1/cards.h
 

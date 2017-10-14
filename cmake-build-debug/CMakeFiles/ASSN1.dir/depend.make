@@ -4,5 +4,6 @@
 CMakeFiles/ASSN1.dir/cards.cpp.obj: ../cards.cpp
 CMakeFiles/ASSN1.dir/cards.cpp.obj: ../cards.h
 
-CMakeFiles/ASSN1.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj: ../cards.h
+CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj: ../siete_y_medio.cpp
 
