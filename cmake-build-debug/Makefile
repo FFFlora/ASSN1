@@ -149,32 +149,32 @@ cards.cpp.s:
 	$(MAKE) -f CMakeFiles\ASSN1.dir\build.make CMakeFiles/ASSN1.dir/cards.cpp.s
 .PHONY : cards.cpp.s
 
-main.obj: main.cpp.obj
+siete_y_medio.obj: siete_y_medio.cpp.obj
 
-.PHONY : main.obj
+.PHONY : siete_y_medio.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\ASSN1.dir\build.make CMakeFiles/ASSN1.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+siete_y_medio.cpp.obj:
+	$(MAKE) -f CMakeFiles\ASSN1.dir\build.make CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj
+.PHONY : siete_y_medio.cpp.obj
 
-main.i: main.cpp.i
+siete_y_medio.i: siete_y_medio.cpp.i
 
-.PHONY : main.i
+.PHONY : siete_y_medio.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\ASSN1.dir\build.make CMakeFiles/ASSN1.dir/main.cpp.i
-.PHONY : main.cpp.i
+siete_y_medio.cpp.i:
+	$(MAKE) -f CMakeFiles\ASSN1.dir\build.make CMakeFiles/ASSN1.dir/siete_y_medio.cpp.i
+.PHONY : siete_y_medio.cpp.i
 
-main.s: main.cpp.s
+siete_y_medio.s: siete_y_medio.cpp.s
 
-.PHONY : main.s
+.PHONY : siete_y_medio.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\ASSN1.dir\build.make CMakeFiles/ASSN1.dir/main.cpp.s
-.PHONY : main.cpp.s
+siete_y_medio.cpp.s:
+	$(MAKE) -f CMakeFiles\ASSN1.dir\build.make CMakeFiles/ASSN1.dir/siete_y_medio.cpp.s
+.PHONY : siete_y_medio.cpp.s
 
 # Help Target
 help:
@@ -188,9 +188,9 @@ help:
 	@echo ... cards.obj
 	@echo ... cards.i
 	@echo ... cards.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... siete_y_medio.obj
+	@echo ... siete_y_medio.i
+	@echo ... siete_y_medio.s
 .PHONY : help
 
 

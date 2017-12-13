@@ -57,7 +57,8 @@ public:
     // Assume Ace is always 1.
     // Useful if you want to sort the cards.
     bool operator < (Card card2) const;
-
+    double get_value() const;
+    void printCards() const;
 private:
     suit_t suit;
     rank_t rank;
@@ -66,13 +67,14 @@ private:
 
 class Hand {
 public:
-    // A vector of Cards
-    Hand();
+    //default constructor automatically generated
 
-    // You decide what functions you'll need...
-
+    void addCard(Card c);
+    void printCards() const;
+    double get_total() const;
+    bool bust() const; //returns true if the hand totals over 7.5
 private:
-    // You decide what fields you'll need...
+    vector<Card> cards;
 };
 
 
@@ -81,6 +83,10 @@ public:
     // Constructor.
     //    Assigns initial amount of money
     Player(int m);
+    bool ifPlayerWins();
+    int get_money() const; //returns the amount of money the player has
+    void gain(int money_to_gain);
+    void lose(const int money_to_lose);
 
     // You decide what functions you'll need...
 

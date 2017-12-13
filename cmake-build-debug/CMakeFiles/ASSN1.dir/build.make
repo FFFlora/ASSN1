@@ -56,28 +56,28 @@ include CMakeFiles/ASSN1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ASSN1.dir/flags.make
 
-CMakeFiles/ASSN1.dir/main.cpp.obj: CMakeFiles/ASSN1.dir/flags.make
-CMakeFiles/ASSN1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Flora\CLionProjects\PIC10C\ASSN1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ASSN1.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ASSN1.dir\main.cpp.obj -c C:\Users\Flora\CLionProjects\PIC10C\ASSN1\main.cpp
+CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj: CMakeFiles/ASSN1.dir/flags.make
+CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj: ../siete_y_medio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Flora\CLionProjects\PIC10C\ASSN1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ASSN1.dir\siete_y_medio.cpp.obj -c C:\Users\Flora\CLionProjects\PIC10C\ASSN1\siete_y_medio.cpp
 
-CMakeFiles/ASSN1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ASSN1.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Flora\CLionProjects\PIC10C\ASSN1\main.cpp > CMakeFiles\ASSN1.dir\main.cpp.i
+CMakeFiles/ASSN1.dir/siete_y_medio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ASSN1.dir/siete_y_medio.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Flora\CLionProjects\PIC10C\ASSN1\siete_y_medio.cpp > CMakeFiles\ASSN1.dir\siete_y_medio.cpp.i
 
-CMakeFiles/ASSN1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ASSN1.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Flora\CLionProjects\PIC10C\ASSN1\main.cpp -o CMakeFiles\ASSN1.dir\main.cpp.s
+CMakeFiles/ASSN1.dir/siete_y_medio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ASSN1.dir/siete_y_medio.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Flora\CLionProjects\PIC10C\ASSN1\siete_y_medio.cpp -o CMakeFiles\ASSN1.dir\siete_y_medio.cpp.s
 
-CMakeFiles/ASSN1.dir/main.cpp.obj.requires:
+CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj.requires:
 
-.PHONY : CMakeFiles/ASSN1.dir/main.cpp.obj.requires
+.PHONY : CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj.requires
 
-CMakeFiles/ASSN1.dir/main.cpp.obj.provides: CMakeFiles/ASSN1.dir/main.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\ASSN1.dir\build.make CMakeFiles/ASSN1.dir/main.cpp.obj.provides.build
-.PHONY : CMakeFiles/ASSN1.dir/main.cpp.obj.provides
+CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj.provides: CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\ASSN1.dir\build.make CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj.provides.build
+.PHONY : CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj.provides
 
-CMakeFiles/ASSN1.dir/main.cpp.obj.provides.build: CMakeFiles/ASSN1.dir/main.cpp.obj
+CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj.provides.build: CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj
 
 
 CMakeFiles/ASSN1.dir/cards.cpp.obj: CMakeFiles/ASSN1.dir/flags.make
@@ -106,13 +106,13 @@ CMakeFiles/ASSN1.dir/cards.cpp.obj.provides.build: CMakeFiles/ASSN1.dir/cards.cp
 
 # Object files for target ASSN1
 ASSN1_OBJECTS = \
-"CMakeFiles/ASSN1.dir/main.cpp.obj" \
+"CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj" \
 "CMakeFiles/ASSN1.dir/cards.cpp.obj"
 
 # External object files for target ASSN1
 ASSN1_EXTERNAL_OBJECTS =
 
-ASSN1.exe: CMakeFiles/ASSN1.dir/main.cpp.obj
+ASSN1.exe: CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj
 ASSN1.exe: CMakeFiles/ASSN1.dir/cards.cpp.obj
 ASSN1.exe: CMakeFiles/ASSN1.dir/build.make
 ASSN1.exe: CMakeFiles/ASSN1.dir/linklibs.rsp
@@ -126,7 +126,7 @@ CMakeFiles/ASSN1.dir/build: ASSN1.exe
 
 .PHONY : CMakeFiles/ASSN1.dir/build
 
-CMakeFiles/ASSN1.dir/requires: CMakeFiles/ASSN1.dir/main.cpp.obj.requires
+CMakeFiles/ASSN1.dir/requires: CMakeFiles/ASSN1.dir/siete_y_medio.cpp.obj.requires
 CMakeFiles/ASSN1.dir/requires: CMakeFiles/ASSN1.dir/cards.cpp.obj.requires
 
 .PHONY : CMakeFiles/ASSN1.dir/requires
